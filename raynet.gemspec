@@ -10,13 +10,13 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.2.0'
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Richard Lapiš"]
+  s.authors = ["Railsformers, Richard Lapiš"]
   s.date = %q{2018-09-18}
   s.description = %q{raynet.cz application REST API gem}
-  s.email = %q{richard.lapis@gmail.com}
+  s.email = %q{developer@railsformers.com}
   s.files = `git ls-files`.split("\n")
   s.test_files = []
-  s.homepage = %q{https://github.com/richardrails/raynet}
+  s.homepage = %q{https://github.com/railsformers/raynet}
   s.files = Dir["{app,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{raynet.cz application REST API gem}
